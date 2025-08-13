@@ -145,7 +145,10 @@ class StartCommand extends BaseCommand
         // Get plan info if planService is available
         $plan = null;
         if ($this->planService) {
-            $plan = $this->planService->getUserPlan($userData['chat_id']);
+            $chatId = $userData['chat_id'] ?? null;
+            if ($chatId) {
+                $plan = $this->planService->getUserPlan($chatId);
+            }
             $planStatus = $plan && isset($plan['expired']) && !$plan['expired'] ? "✅ Active" : "❌ Expired";
         } else {
             // Fallback when planService is not available

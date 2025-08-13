@@ -329,7 +329,7 @@
         "last_hour_reset": 1755028800,
         "last_day_reset": 1754956800,
         "last_month_reset": 1754006400,
-        "last_activity": 1755052784
+        "last_activity": 1755053400
     },
     "1998854061": {
         "sender_name": "\/start",
@@ -999,7 +999,7 @@
         "plan": "trial",
         "plan_expires": 1755312417,
         "created_at": 1755053217,
-        "last_activity": 1755053283,
+        "last_activity": 1755053474,
         "total_emails_sent": 0,
         "daily_stats": [],
         "hourly_stats": [],
