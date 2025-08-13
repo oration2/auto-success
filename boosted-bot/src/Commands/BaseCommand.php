@@ -4,8 +4,8 @@ namespace App\Commands;
 
 use App\Interfaces\CommandInterface;
 use App\Services\ConfigManager;
-use App\Services\LoggerService;
-use App\Services\TelegramApiService;
+use App\Services\Logger;
+use App\Services\TelegramAPI;
 use App\Services\UserService;
 
 /**
@@ -26,8 +26,8 @@ abstract class BaseCommand implements CommandInterface
 
     public function __construct(
         ConfigManager $config = null,
-        LoggerService $logger = null,
-        TelegramApiService $telegramApi = null,
+        Logger $logger = null,
+        TelegramAPI $telegramApi = null,
         UserService $userService = null
     ) {
         $this->config = $config;

@@ -990,5 +990,21 @@
         "created_at": 1755036895,
         "last_activity": 1755044811,
         "total_emails_sent": 0
+    },
+    "123456789": {
+        "chat_id": "123456789",
+        "username": "testuser",
+        "first_name": "Test",
+        "last_name": "",
+        "plan": "trial",
+        "plan_expires": 1755312417,
+        "created_at": 1755053217,
+        "last_activity": 1755053283,
+        "total_emails_sent": 0,
+        "daily_stats": [],
+        "hourly_stats": [],
+        "smtp_configs": [],
+        "files": [],
+        "campaigns": []
     }
 }

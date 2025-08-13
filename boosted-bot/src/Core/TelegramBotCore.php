@@ -83,6 +83,9 @@ class TelegramBotCore
             $this->commandManager->addService('workflowService', $this->workflowService);
             $this->commandManager->addService('emailService', $this->emailService);
 
+            // Initialize CommandManager and register commands
+            $this->commandManager->initialize();
+
             // Store services for easy access
             $this->services = [
                 'config' => $this->config,

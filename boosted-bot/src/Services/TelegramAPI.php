@@ -48,6 +48,13 @@ class TelegramAPI
         // Prepare request URL
         $url = $this->apiUrl . '/' . $method;
         
+        // Encode array parameters (like reply_markup) as JSON
+        foreach ($params as $key => $value) {
+            if (is_array($value)) {
+                $params[$key] = json_encode($value);
+            }
+        }
+        
         // Initialize cURL
         $curl = curl_init();
         

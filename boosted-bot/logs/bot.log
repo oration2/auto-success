@@ -181,3 +181,108 @@
 [2025-08-13 02:39:41] [INFO] Message processed {"chat_id":7729743415,"message_id":5278,"success":false}
 [2025-08-13 02:39:44] [INFO] Processing webhook update {"update_id":914639110}
 [2025-08-13 02:39:44] [INFO] Message processed {"chat_id":7729743415,"message_id":5280,"success":false}
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\PlansCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\UploadCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\SmtpCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\SendCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\TemplateCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\AdminCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\StatsCommand
+[2025-08-13 02:45:43] [INFO] Command class not found, skipping: App\Commands\BroadcastCommand
+[2025-08-13 02:45:43] [INFO] CommandManager initialized with 3 commands
+[2025-08-13 02:45:43] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:45:43] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:45:43] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\PlansCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\UploadCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\SmtpCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\SendCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\TemplateCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\AdminCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\StatsCommand
+[2025-08-13 02:46:17] [INFO] Command class not found, skipping: App\Commands\BroadcastCommand
+[2025-08-13 02:46:17] [INFO] CommandManager initialized with 3 commands
+[2025-08-13 02:46:17] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:46:17] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:46:17] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:46:17] [INFO] Processing webhook update {"update_id":1}
+[2025-08-13 02:46:17] [INFO] Executing command {"command":"start","chat_id":"123456789"}
+[2025-08-13 02:46:17] [INFO] Command executed {"command":"start","chat_id":"123456789","context":{"timestamp":1755053177,"command_name":"start"}}
+[2025-08-13 02:46:17] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendChatAction","params":{"chat_id":"123456789","action":"typing"},"response":false}
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\PlansCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\UploadCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\SmtpCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\SendCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\TemplateCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\AdminCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\StatsCommand
+[2025-08-13 02:46:57] [INFO] Command class not found, skipping: App\Commands\BroadcastCommand
+[2025-08-13 02:46:57] [INFO] CommandManager initialized with 3 commands
+[2025-08-13 02:46:57] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:46:57] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:46:57] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:46:57] [INFO] Processing webhook update {"update_id":1}
+[2025-08-13 02:46:57] [INFO] Executing command {"command":"start","chat_id":"123456789"}
+[2025-08-13 02:46:57] [INFO] Command executed {"command":"start","chat_id":"123456789","context":{"timestamp":1755053217,"command_name":"start"}}
+[2025-08-13 02:46:57] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendChatAction","params":{"chat_id":"123456789","action":"typing"},"response":false}
+[2025-08-13 02:46:57] [INFO] New user created {"chat_id":"123456789","username":"testuser"}
+[2025-08-13 02:46:57] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendMessage","params":{"chat_id":"123456789","text":"\ud83c\udf89 *Welcome to Email Campaign Bot!*\n\nI'll help you send professional email campaigns efficiently.\n\n\ud83c\udf81 You've been granted a *3-day trial* with:\n\u2022 Up to 100 emails per hour\n\u2022 Up to 500 emails per day\n\u2022 HTML email support\n\u2022 File attachments\n\n\ud83d\udccb *Quick Start:*\n1. Upload your email list (\/upload)\n2. Create HTML template (\/template)\n3. Configure SMTP (\/smtp)\n4. Send campaign (\/send)\n\n\ud83d\udca1 Use \/help to see all available commands or choose from the menu below.","parse_mode":"Markdown","reply_markup":{"keyboard":[[{"text":"\ud83d\udce4 Send Campaign"},{"text":"\ud83d\udcca My Status"}],[{"text":"\ud83d\udcc1 Upload Files"},{"text":"\u2699\ufe0f SMTP Config"}],[{"text":"\ud83d\udc8e Plans & Pricing"},{"text":"\u2753 Help"}]],"resize_keyboard":true,"one_time_keyboard":false}},"response":false}
+[2025-08-13 02:46:57] [INFO] Command executed {"command":"start","chat_id":"123456789","success":false}
+[2025-08-13 02:46:57] [INFO] Message processed {"chat_id":"123456789","message_id":1,"success":false}
+[2025-08-13 02:46:57] [INFO] Processing webhook update {"update_id":2}
+[2025-08-13 02:46:57] [INFO] Executing command {"command":"help","chat_id":"123456789"}
+[2025-08-13 02:46:57] [INFO] Command executed {"command":"help","chat_id":"123456789","context":{"timestamp":1755053217,"command_name":"help"}}
+[2025-08-13 02:46:57] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendChatAction","params":{"chat_id":"123456789","action":"typing"},"response":false}
+[2025-08-13 02:46:57] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendMessage","params":{"chat_id":"123456789","text":"\u2753 *Help & Commands*\n\nWelcome to the Email Campaign Bot! Here are the available commands:\n\n*\ud83d\udccb Basic Commands:*\n\/start - Start the bot and show welcome message\n\/help - Show this help message\n\/status - Check your account status and statistics\n\n*\ud83d\udce4 Campaign Commands:*\n\/send - Send email campaign\n\/upload - Upload email list and template files\n\/smtp - Configure SMTP settings\n\/template - Manage email templates\n\n*\ud83d\udc8e Account Commands:*\n\/plans - View and purchase plans\n\n*\ud83c\udfaf Quick Start Guide:*\n1. Use \/start to initialize your account\n2. Upload your email list with \/upload\n3. Configure SMTP with \/smtp\n4. Send campaign with \/send\n\n*\ud83d\udcde Support:*\nContact: @Ninja111\nBot: @Cheto_inboxing_bot\n\n\ud83d\udca1 Tip: You can also use the keyboard buttons below for quick access!","parse_mode":"Markdown","reply_markup":{"inline_keyboard":[[{"text":"\ud83c\udfe0 Main Menu","callback_data":"main_menu"},{"text":"\ud83d\udcca My Status","callback_data":"status"}],[{"text":"\ud83d\udce4 Send Campaign","callback_data":"send_campaign"},{"text":"\ud83d\udc8e Plans","callback_data":"plans"}],[{"text":"\ud83d\udcc1 Upload Files","callback_data":"upload"},{"text":"\u2699\ufe0f SMTP Config","callback_data":"smtp"}]]}},"response":false}
+[2025-08-13 02:46:57] [INFO] Command executed {"command":"help","chat_id":"123456789","success":false}
+[2025-08-13 02:46:57] [INFO] Message processed {"chat_id":"123456789","message_id":2,"success":false}
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\PlansCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\UploadCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\SmtpCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\SendCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\TemplateCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\AdminCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\StatsCommand
+[2025-08-13 02:48:03] [INFO] Command class not found, skipping: App\Commands\BroadcastCommand
+[2025-08-13 02:48:03] [INFO] CommandManager initialized with 3 commands
+[2025-08-13 02:48:03] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:48:03] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:48:03] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:48:03] [INFO] Processing webhook update {"update_id":1}
+[2025-08-13 02:48:03] [INFO] Executing command {"command":"start","chat_id":"123456789"}
+[2025-08-13 02:48:03] [INFO] Command executed {"command":"start","chat_id":"123456789","context":{"timestamp":1755053283,"command_name":"start"}}
+[2025-08-13 02:48:03] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendChatAction","params":{"chat_id":"123456789","action":"typing"},"response":false}
+[2025-08-13 02:48:03] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendMessage","params":{"chat_id":"123456789","text":"\ud83d\udc4b *Welcome back!*\n\n\ud83d\udcca *Your Status:*\nPlan: Unknown (\u2705 Active)\nTotal emails sent: 0\nToday's emails: 0\n\n\ud83d\udca1 What would you like to do today?","parse_mode":"Markdown","reply_markup":"{\"keyboard\":[[{\"text\":\"\\ud83d\\udce4 Send Campaign\"},{\"text\":\"\\ud83d\\udcca My Status\"}],[{\"text\":\"\\ud83d\\udcc1 Upload Files\"},{\"text\":\"\\u2699\\ufe0f SMTP Config\"}],[{\"text\":\"\\ud83d\\udc8e Plans & Pricing\"},{\"text\":\"\\u2753 Help\"}]],\"resize_keyboard\":true,\"one_time_keyboard\":false}"},"response":false}
+[2025-08-13 02:48:03] [INFO] Command executed {"command":"start","chat_id":"123456789","success":false}
+[2025-08-13 02:48:03] [INFO] Message processed {"chat_id":"123456789","message_id":1,"success":false}
+[2025-08-13 02:48:03] [INFO] Processing webhook update {"update_id":2}
+[2025-08-13 02:48:03] [INFO] Executing command {"command":"help","chat_id":"123456789"}
+[2025-08-13 02:48:03] [INFO] Command executed {"command":"help","chat_id":"123456789","context":{"timestamp":1755053283,"command_name":"help"}}
+[2025-08-13 02:48:03] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendChatAction","params":{"chat_id":"123456789","action":"typing"},"response":false}
+[2025-08-13 02:48:03] [ERROR] Telegram API error (HTTP 0): Could not resolve host: api.telegram.org {"method":"sendMessage","params":{"chat_id":"123456789","text":"\u2753 *Help & Commands*\n\nWelcome to the Email Campaign Bot! Here are the available commands:\n\n*\ud83d\udccb Basic Commands:*\n\/start - Start the bot and show welcome message\n\/help - Show this help message\n\/status - Check your account status and statistics\n\n*\ud83d\udce4 Campaign Commands:*\n\/send - Send email campaign\n\/upload - Upload email list and template files\n\/smtp - Configure SMTP settings\n\/template - Manage email templates\n\n*\ud83d\udc8e Account Commands:*\n\/plans - View and purchase plans\n\n*\ud83c\udfaf Quick Start Guide:*\n1. Use \/start to initialize your account\n2. Upload your email list with \/upload\n3. Configure SMTP with \/smtp\n4. Send campaign with \/send\n\n*\ud83d\udcde Support:*\nContact: @Ninja111\nBot: @Cheto_inboxing_bot\n\n\ud83d\udca1 Tip: You can also use the keyboard buttons below for quick access!","parse_mode":"Markdown"},"response":false}
+[2025-08-13 02:48:03] [INFO] Command executed {"command":"help","chat_id":"123456789","success":false}
+[2025-08-13 02:48:03] [INFO] Message processed {"chat_id":"123456789","message_id":2,"success":false}
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\PlansCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\UploadCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\SmtpCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\SendCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\TemplateCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\AdminCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\StatsCommand
+[2025-08-13 02:48:17] [INFO] Command class not found, skipping: App\Commands\BroadcastCommand
+[2025-08-13 02:48:17] [INFO] CommandManager initialized with 3 commands
+[2025-08-13 02:48:17] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:48:17] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:48:17] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\PlansCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\UploadCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\SmtpCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\SendCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\TemplateCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\AdminCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\StatsCommand
+[2025-08-13 02:48:27] [INFO] Command class not found, skipping: App\Commands\BroadcastCommand
+[2025-08-13 02:48:27] [INFO] CommandManager initialized with 3 commands
+[2025-08-13 02:48:27] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:48:27] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:48:27] [INFO] TelegramBotCore fully initialized

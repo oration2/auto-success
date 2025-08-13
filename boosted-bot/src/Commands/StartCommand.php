@@ -104,7 +104,7 @@ class StartCommand extends BaseCommand
             'campaigns' => []
         ];
 
-        $this->userService?->updateUserData($chatId, $userData);
+        $this->userService?->updateUser($chatId, $userData);
         
         $this->logger?->info('New user created', [
             'chat_id' => $chatId,

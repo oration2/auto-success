@@ -74,20 +74,38 @@ class CommandManager implements ServiceInterface
         // Use all available services for dependency injection
         $services = $this->services;
 
-        // Register core commands
-        $this->registerCommand('start', \App\Commands\StartCommand::class, $services);
-        $this->registerCommand('status', \App\Commands\StatusCommand::class, $services);
-        $this->registerCommand('help', \App\Commands\HelpCommand::class, $services);
-        $this->registerCommand('plans', \App\Commands\PlansCommand::class, $services);
-        $this->registerCommand('upload', \App\Commands\UploadCommand::class, $services);
-        $this->registerCommand('smtp', \App\Commands\SmtpCommand::class, $services);
-        $this->registerCommand('send', \App\Commands\SendCommand::class, $services);
-        $this->registerCommand('template', \App\Commands\TemplateCommand::class, $services);
-        
-        // Admin commands
-        $this->registerCommand('admin', \App\Commands\AdminCommand::class, $services);
-        $this->registerCommand('stats', \App\Commands\StatsCommand::class, $services);
-        $this->registerCommand('broadcast', \App\Commands\BroadcastCommand::class, $services);
+        // Core commands that should always be available
+        $coreCommands = [
+            'start' => \App\Commands\StartCommand::class,
+            'status' => \App\Commands\StatusCommand::class,
+            'help' => \App\Commands\HelpCommand::class
+        ];
+
+        // Additional commands (register only if they exist)
+        $additionalCommands = [
+            'plans' => \App\Commands\PlansCommand::class,
+            'upload' => \App\Commands\UploadCommand::class,
+            'smtp' => \App\Commands\SmtpCommand::class,
+            'send' => \App\Commands\SendCommand::class,
+            'template' => \App\Commands\TemplateCommand::class,
+            'admin' => \App\Commands\AdminCommand::class,
+            'stats' => \App\Commands\StatsCommand::class,
+            'broadcast' => \App\Commands\BroadcastCommand::class
+        ];
+
+        // Register core commands (these are critical)
+        foreach ($coreCommands as $name => $className) {
+            $this->registerCommand($name, $className, $services);
+        }
+
+        // Register additional commands only if they exist
+        foreach ($additionalCommands as $name => $className) {
+            if (class_exists($className)) {
+                $this->registerCommand($name, $className, $services);
+            } else {
+                $this->logger?->info("Command class not found, skipping: $className");
+            }
+        }
     }
 
     /**
