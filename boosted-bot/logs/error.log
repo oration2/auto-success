@@ -1,0 +1,9 @@
+[12-Aug-2025 21:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[12-Aug-2025 21:57:34 UTC] [EXCEPTION] Class "App\Core\TelegramBotCore" not found in /workspaces/auto-success/boosted-bot/new_bot.php on line 31
+[12-Aug-2025 21:57:34 UTC] #0 {main}
+[13-Aug-2025 00:31:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[13-Aug-2025 00:31:01 UTC] [EXCEPTION] Call to undefined method App\Core\TelegramBotCore::registerCommandHandlers() in /workspaces/auto-success/boosted-bot/new_bot.php on line 34
+[13-Aug-2025 00:31:01 UTC] #0 {main}
+[13-Aug-2025 00:49:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[13-Aug-2025 00:49:45 UTC] [EXCEPTION] Call to undefined method App\Core\TelegramBotCore::registerCommandHandlers() in /workspaces/auto-success/boosted-bot/new_bot.php on line 34
+[13-Aug-2025 00:49:45 UTC] #0 {main}

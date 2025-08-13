@@ -1,0 +1,183 @@
+[2025-08-12 22:04:18] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:04:18] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:04:18] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:05:23] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:05:23] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:05:23] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:08:20] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:08:20] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:08:20] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:08:20] [INFO] Test log message from bot testing
+[2025-08-12 22:09:41] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:09:41] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:09:41] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:09:41] [INFO] Processing webhook update {"update_id":123456789}
+[2025-08-12 22:13:53] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:13:53] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:13:53] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:13:53] [INFO] Processing webhook update {"update_id":123456789}
+[2025-08-12 22:13:53] [INFO] Handling /start command (fallback) {"chat_id":1234567890}
+[2025-08-12 22:14:55] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:14:55] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:14:55] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:14:55] [INFO] Processing webhook update {"update_id":123456789}
+[2025-08-12 22:14:55] [INFO] Handling /start command (fallback) {"chat_id":1234567890}
+[2025-08-12 22:14:55] [INFO] New user created (fallback) {"chat_id":1234567890}
+[2025-08-12 22:14:55] [INFO] Message processed {"chat_id":1234567890,"message_id":1,"success":true}
+[2025-08-12 22:14:55] [INFO] Processing webhook update {"update_id":123456790}
+[2025-08-12 22:14:55] [INFO] Handling /status command (fallback) {"chat_id":1234567890}
+[2025-08-12 22:14:55] [INFO] Message processed {"chat_id":1234567890,"message_id":2,"success":true}
+[2025-08-12 22:14:55] [INFO] Processing webhook update {"update_id":123456791}
+[2025-08-12 22:14:55] [INFO] Message processed {"chat_id":1234567890,"message_id":3,"success":true}
+[2025-08-12 22:14:55] [INFO] Processing webhook update {"update_id":123456792}
+[2025-08-12 22:14:55] [INFO] Callback query processed {"query_id":"cb123456789","success":true}
+[2025-08-12 22:15:05] [INFO] TelegramBotCore services initialized
+[2025-08-12 22:15:05] [INFO] Initializing TelegramBotCore...
+[2025-08-12 22:15:05] [INFO] TelegramBotCore fully initialized
+[2025-08-12 22:15:05] [INFO] Test log message from bot testing
+[2025-08-12 23:57:31] [INFO] TelegramBotCore services initialized
+[2025-08-12 23:57:31] [INFO] Initializing TelegramBotCore...
+[2025-08-12 23:57:31] [INFO] TelegramBotCore fully initialized
+[2025-08-12 23:57:31] [INFO] Test log message from bot testing
+[2025-08-12 23:57:43] [INFO] TelegramBotCore services initialized
+[2025-08-12 23:57:43] [INFO] Initializing TelegramBotCore...
+[2025-08-12 23:57:43] [INFO] TelegramBotCore fully initialized
+[2025-08-12 23:57:43] [INFO] Processing webhook update {"update_id":123456789}
+[2025-08-13 00:26:51] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:26:51] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:26:51] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:26:51] [INFO] Processing webhook update {"update_id":123456789}
+[2025-08-13 00:26:51] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:26:51] [INFO] Message processed {"chat_id":1234567890,"message_id":1,"success":false}
+[2025-08-13 00:26:51] [INFO] Processing webhook update {"update_id":123456790}
+[2025-08-13 00:26:51] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:26:51] [INFO] Message processed {"chat_id":1234567890,"message_id":2,"success":false}
+[2025-08-13 00:26:51] [INFO] Processing webhook update {"update_id":123456791}
+[2025-08-13 00:26:51] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:26:51] [INFO] Message processed {"chat_id":1234567890,"message_id":3,"success":true}
+[2025-08-13 00:26:51] [INFO] Processing webhook update {"update_id":123456792}
+[2025-08-13 00:26:51] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:26:51] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:26:51] [INFO] Callback query processed {"query_id":"cb123456789","success":false}
+[2025-08-13 00:28:25] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:29:33] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:29:33] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:29:33] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:29:33] [INFO] Processing webhook update {"update_id":12345}
+[2025-08-13 00:29:33] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:29:33] [INFO] Message processed {"chat_id":999888777,"message_id":1,"success":false}
+[2025-08-13 00:29:33] [INFO] Processing webhook update {"update_id":12346}
+[2025-08-13 00:29:33] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:29:33] [INFO] Message processed {"chat_id":999888777,"message_id":2,"success":false}
+[2025-08-13 00:29:33] [INFO] Processing webhook update {"update_id":12347}
+[2025-08-13 00:29:33] [ERROR] Telegram API error (HTTP 400): 
+[2025-08-13 00:29:33] [INFO] Message processed {"chat_id":999888777,"message_id":3,"success":true}
+[2025-08-13 00:31:01] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:31:50] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:32:21] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:32:35] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:33:20] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:33:21] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:33:22] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:34:34] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:35:01] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:35:28] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:35:29] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:36:48] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:37:14] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:38:35] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:38:35] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:38:35] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:38:35] [INFO] Test log message from bot testing
+[2025-08-13 00:41:30] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:41:30] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:41:30] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:41:30] [INFO] Test log message from bot testing
+[2025-08-13 00:41:48] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:43:01] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:43:02] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:43:41] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:43:41] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:43:41] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:43:41] [INFO] Processing webhook update {"update_id":825761178}
+[2025-08-13 00:43:41] [INFO] Message processed {"chat_id":1998854061,"message_id":7991,"success":false}
+[2025-08-13 00:43:41] [INFO] Processing webhook update {"update_id":825761179}
+[2025-08-13 00:43:41] [INFO] Message processed {"chat_id":1998854061,"message_id":7992,"success":false}
+[2025-08-13 00:43:51] [INFO] Processing webhook update {"update_id":825761180}
+[2025-08-13 00:43:51] [INFO] Message processed {"chat_id":1998854061,"message_id":7995,"success":false}
+[2025-08-13 00:44:05] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:44:26] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:44:26] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:44:26] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:44:26] [INFO] Processing webhook update {"update_id":825761181}
+[2025-08-13 00:44:26] [INFO] Message processed {"chat_id":1998854061,"message_id":7997,"success":false}
+[2025-08-13 00:44:29] [INFO] Processing webhook update {"update_id":825761182}
+[2025-08-13 00:44:29] [INFO] Message processed {"chat_id":1998854061,"message_id":7999,"success":false}
+[2025-08-13 00:44:58] [INFO] Processing webhook update {"update_id":825761183}
+[2025-08-13 00:44:58] [INFO] Message processed {"chat_id":1998854061,"message_id":8001,"success":true}
+[2025-08-13 00:44:59] [INFO] Processing webhook update {"update_id":825761184}
+[2025-08-13 00:44:59] [INFO] Message processed {"chat_id":1998854061,"message_id":8003,"success":false}
+[2025-08-13 00:45:02] [INFO] Processing webhook update {"update_id":825761185}
+[2025-08-13 00:45:02] [INFO] Message processed {"chat_id":1998854061,"message_id":8005,"success":false}
+[2025-08-13 00:45:05] [INFO] Processing webhook update {"update_id":825761186}
+[2025-08-13 00:45:05] [INFO] Message processed {"chat_id":1998854061,"message_id":8007,"success":false}
+[2025-08-13 00:45:07] [INFO] Processing webhook update {"update_id":825761187}
+[2025-08-13 00:45:07] [INFO] Message processed {"chat_id":1998854061,"message_id":8009,"success":true}
+[2025-08-13 00:46:41] [INFO] Processing webhook update {"update_id":825761188}
+[2025-08-13 00:46:42] [INFO] Message processed {"chat_id":1998854061,"message_id":8011,"success":false}
+[2025-08-13 00:46:59] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:47:19] [INFO] Processing webhook update {"update_id":825761189}
+[2025-08-13 00:47:19] [INFO] Message processed {"chat_id":1998854061,"message_id":8013,"success":false}
+[2025-08-13 00:47:22] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:47:22] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:47:22] [INFO] Processing webhook update {"update_id":825761190}
+[2025-08-13 00:47:22] [INFO] Message processed {"chat_id":1998854061,"message_id":8015,"success":false}
+[2025-08-13 00:48:54] [INFO] Processing webhook update {"update_id":825761191}
+[2025-08-13 00:48:54] [INFO] Message processed {"chat_id":1998854061,"message_id":8018,"success":false}
+[2025-08-13 00:49:17] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:49:45] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:50:08] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:50:22] [INFO] TelegramBotCore services initialized
+[2025-08-13 00:50:26] [INFO] Initializing TelegramBotCore...
+[2025-08-13 00:50:26] [INFO] TelegramBotCore fully initialized
+[2025-08-13 00:50:26] [INFO] Processing webhook update {"update_id":825761192}
+[2025-08-13 00:50:26] [INFO] Message processed {"chat_id":1998854061,"message_id":8020,"success":false}
+[2025-08-13 02:30:56] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:31:52] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:31:52] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:31:52] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:31:52] [INFO] Processing webhook update {"update_id":825761193}
+[2025-08-13 02:31:52] [INFO] Message processed {"chat_id":1998854061,"message_id":8022,"success":false}
+[2025-08-13 02:31:56] [INFO] Processing webhook update {"update_id":825761194}
+[2025-08-13 02:31:56] [INFO] Message processed {"chat_id":1998854061,"message_id":8024,"success":false}
+[2025-08-13 02:32:22] [INFO] Processing webhook update {"update_id":825761195}
+[2025-08-13 02:32:22] [INFO] Message processed {"chat_id":1998854061,"message_id":8026,"success":false}
+[2025-08-13 02:32:24] [INFO] Processing webhook update {"update_id":825761196}
+[2025-08-13 02:32:24] [INFO] Message processed {"chat_id":1998854061,"message_id":8028,"success":true}
+[2025-08-13 02:32:27] [INFO] Processing webhook update {"update_id":825761197}
+[2025-08-13 02:32:27] [INFO] Message processed {"chat_id":1998854061,"message_id":8030,"success":false}
+[2025-08-13 02:32:29] [INFO] Processing webhook update {"update_id":825761198}
+[2025-08-13 02:32:29] [INFO] Message processed {"chat_id":1998854061,"message_id":8032,"success":false}
+[2025-08-13 02:36:38] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:36:38] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:36:38] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:36:42] [INFO] Processing webhook update {"update_id":825761199}
+[2025-08-13 02:36:42] [INFO] Message processed {"chat_id":1998854061,"message_id":8034,"success":false}
+[2025-08-13 02:37:51] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:37:51] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:37:51] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:37:51] [INFO] Processing webhook update {"update_id":825761200}
+[2025-08-13 02:37:51] [INFO] Message processed {"chat_id":1998854061,"message_id":8036,"success":false}
+[2025-08-13 02:37:51] [INFO] Processing webhook update {"update_id":825761201}
+[2025-08-13 02:37:51] [INFO] Message processed {"chat_id":1998854061,"message_id":8037,"success":false}
+[2025-08-13 02:39:28] [INFO] TelegramBotCore services initialized
+[2025-08-13 02:39:28] [INFO] Initializing TelegramBotCore...
+[2025-08-13 02:39:28] [INFO] TelegramBotCore fully initialized
+[2025-08-13 02:39:28] [INFO] Processing webhook update {"update_id":914639104}
+[2025-08-13 02:39:28] [INFO] Message processed {"chat_id":1998854061,"message_id":5274,"success":false}
+[2025-08-13 02:39:28] [INFO] Processing webhook update {"update_id":914639106}
+[2025-08-13 02:39:28] [INFO] Message processed {"chat_id":1676238980,"message_id":5275,"success":false}
+[2025-08-13 02:39:41] [INFO] Processing webhook update {"update_id":914639109}
+[2025-08-13 02:39:41] [INFO] Message processed {"chat_id":7729743415,"message_id":5278,"success":false}
+[2025-08-13 02:39:44] [INFO] Processing webhook update {"update_id":914639110}
+[2025-08-13 02:39:44] [INFO] Message processed {"chat_id":7729743415,"message_id":5280,"success":false}

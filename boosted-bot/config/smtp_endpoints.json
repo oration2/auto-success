@@ -1,0 +1,30 @@
+{
+    "smtp.cmsgrupo.com.br:587": {
+        "encryption": "",
+        "updated_at": 1754917568
+    },
+    "smtp.lfxtransportes.com.br:587": {
+        "encryption": "",
+        "updated_at": 1754917861
+    },
+    "smtp.superlight.pro:587": {
+        "encryption": "",
+        "updated_at": 1754917872
+    },
+    "smtp.safrabariri.com.br:587": {
+        "encryption": "",
+        "updated_at": 1754917882
+    },
+    "smtp.oicos.fr:587": {
+        "encryption": "tls",
+        "updated_at": 1754922298
+    },
+    "bma.biglobe.ne.jp:587": {
+        "encryption": "tls",
+        "updated_at": 1754945303
+    },
+    "rodasrl.ro:587": {
+        "encryption": "tls",
+        "updated_at": 1755007572
+    }
+}

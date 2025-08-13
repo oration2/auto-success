@@ -1,0 +1,4 @@
+rodasrl.ro:587,daniela.nistor@rodasrl.ro,0=6Vz*zMZ[XH@JS]
+smtp.superlight.pro:587,marketing1@superlight.pro,Mkt@89552
+smtp.oicos.fr:587,patricia.noirault@oicos.fr,Evpcg@1140100
+bma.biglobe.ne.jp:587,ch6xw4@bma.biglobe.ne.jp,mitsuko0403
